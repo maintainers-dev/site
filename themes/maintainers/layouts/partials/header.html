@@ -1,4 +1,13 @@
-<!--Site Title-->
-<a href="{{ "" | relLangURL}}">{{site.Title}}</a>
-<!--Sub-title-->
-{{with site.Params.subtitle}} / {{.}}{{end}}
+<header>
+	<div class="header-inner">
+		<a href="{{ "/" | relURL}}" class="logo">{{site.Title}}</a>
+
+		<nav>
+			<ul>
+				<li><a href="#">All Pages</a></li>
+				<li><a href="#">Forum</a></li>
+			</ul>
+		</nav>
+	</div>
+	<hr>
+</header>

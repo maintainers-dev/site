@@ -5,6 +5,10 @@
 for Open Source Maintainers
 ---
 
+## Tech notes
+
+Using icons from https://iconoir.com/
+
 ## Routes
 
 !! These will essentially be topic tags
