@@ -1,3 +1,8 @@
+
+/*
+ * Global Styles
+ */
+
 * {
 	box-sizing: borer-box;
 }
@@ -6,28 +11,74 @@
 	--color-primary: #8294C4;
 	--color-diluted: #ACB1D6;
 	--color-shade: #DBDFEA;
-	--color-secondary: #FFEAD2;
-
-	--gradient-primary-seconday: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+	--color-background: #FFEAD2;
 
 	--content-width: 940px;
 
-	background: var(--color-secondary);
+	background: var(--color-background);
 }
 
+
+/*
+ * Layout HTML Tags
+ */
 
 body {
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
-	font-family: sans-serif;
+	font-family: 'Inter', sans-serif;
+	color: #000;
 }
+
+hr {
+	margin: 0;
+	height: 1px;
+	border: 0;
+	border-bottom: 2px solid rgba(0, 0, 0, .4);
+}
+
+section {
+	padding: 1rem 0;
+}
+section > hr:last-child {
+	margin-top: 3rem;
+}
+
+/*
+ * Text HTML Tags
+ */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Geologica', sans-serif;
+}
+
+p {
+	line-height: 1.6;
+}
+
+a {
+	color: #000;
+	text-decoration: underline;
+	text-decoration-thickness: .1em;
+}
+a:focus {
+	outline: .2em dotted #000;
+	outline-offset: .15em;
+}
+
+/*
+ * General Structure & Layout
+ */
 
 .container {
 	max-width: var(--content-width);
 	margin: 0 auto;
 }
 
+/*
+ * Site header & footer
+ */
 
 header .header-inner {
 	display: flex;
@@ -53,37 +104,26 @@ header ul a {
 
 footer {
 	margin-top: 1rem;
+	font-size: .9rem;
 }
 
 .footer-inner {
 	padding-block: 1rem;
 }
 
-hr {
-	margin: 0;
-	height: 1px;
-	border: 0;
-	border-bottom: 2px solid rgba(0, 0, 0, .4);
-}
+/*
+ * In-page elements
+ */
 
 .hero {
 	text-align: start;
-	padding: 5rem 0;
+	padding: 4rem 0 5rem;
 }
 
 .hero h1 {
 	margin: 0;
 	font-weight: 700;
-	font-style: italic;
 	font-size: 3rem;
-	color: rgba(0, 0, 0, 0.8);
-}
-
-section {
-	padding: 1rem 0;
-}
-section > hr:last-child {
-	margin-top: 3rem;
 }
 
 .feature-box-container {
@@ -103,7 +143,13 @@ section > hr:last-child {
 	flex: 1;
 }
 
+a.feature-box:hover {
+	background: #000;
+	color: var(--color-background);
+}
+
 .feature-box svg {
+	stroke: currentColor;
 	height: 80px;
 	margin-bottom: 1rem;
 }
@@ -121,8 +167,8 @@ section > hr:last-child {
 .about-grid {
 	display: grid;
 	grid-column-gap: 2rem;
-	grid-template: "a a c"
-				   "b b c";
+	grid-template: "a a b b b"
+				   "c c c c c";
 }
 .about-grid :nth-child(1) {
 	grid-area: a;
