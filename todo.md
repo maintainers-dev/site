@@ -4,6 +4,7 @@
 - Extract fonts to be locally hosted.
 - Add "Latest Resources" functionality on homepage.
 - Favicon
+- Test layout on mobile
 
 ## Articles
 

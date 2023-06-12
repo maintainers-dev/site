@@ -52,6 +52,8 @@ Should have an "about" part on the homepage.
 ## Article Format
 
 Semi-formal, blog style pages.
+Small, digestable articles; Strongly prefer to split into a new article rather than nested topics.
 Add structure in future where needed, keep to tags/categories for now.
-Add additional/further resources at the end of each page.
+Add "Further Reading" at the end of each page to internal/external resources.
+Upon growth, add "Common Questions" section with questions that can be answered via other articles.
 Scale tone depending on target audience level.

@@ -1,0 +1,25 @@
+{{define "main"}}
+
+<main class="type-article">
+
+	<div class="article-header">
+		<!--Title-->
+		<h1>{{.Title}}</h1>
+
+		<!--Tag-->
+		<ul class="tags">
+			{{range (.GetTerms "tags")}}
+			<li><a href="{{.RelPermalink}}">#{{.LinkTitle}}</a></li>
+			{{end}}
+		</ul>
+	</div>
+
+	<!--Content-->
+	{{.Content}}
+
+	<!--Prev/Next-->
+	{{with .PrevInSection}}Prev <a href="{{.RelPermalink}}">{{.Title}}</a>{{end}}
+	{{with .NextInSection}}Next <a href="{{.RelPermalink}}">{{.Title}}</a>{{end}}
+</main>
+
+{{end}}

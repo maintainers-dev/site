@@ -4,7 +4,7 @@
  */
 
 * {
-	box-sizing: borer-box;
+	box-sizing: border-box;
 }
 
 :root {
@@ -66,6 +66,9 @@ a:focus {
 	outline: .2em dotted #000;
 	outline-offset: .15em;
 }
+ul li {
+	margin-block: .5em;
+}
 
 /*
  * General Structure & Layout
@@ -109,6 +112,32 @@ footer {
 
 .footer-inner {
 	padding-block: 1rem;
+}
+
+/*
+ * Standard main content
+ */
+
+main {
+	max-width: 800px;
+	margin: 0 auto 3rem auto;
+}
+main h1 {
+	font-size: 3rem;
+	margin: 0;
+}
+
+main ul.tags {
+	list-style: none;
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+main ul.tags a {
+	font-weight: bold;
+	color: rgba(0, 0, 0, .5);
 }
 
 /*
@@ -178,4 +207,8 @@ a.feature-box:hover {
 }
 .about-grid :nth-child(3) {
 	grid-area: c;
+}
+
+.article-header {
+	margin: 4rem 0;
 }
