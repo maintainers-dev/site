@@ -1,3 +1,52 @@
+/**
+ * Fonts
+ */
+
+/* inter-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/inter-v12-latin-regular.woff2') format('woff2')
+}
+
+/* inter-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/inter-v12-latin-700.woff2') format('woff2')
+}
+
+/* geologica-regular - latin */
+@font-face {
+  font-display: swap
+  font-family: 'Geologica';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/geologica-v1-latin-regular.woff2') format('woff2');
+}
+
+/* geologica-500 - latin */
+@font-face {
+  font-display: swap
+  font-family: 'Geologica';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/geologica-v1-latin-500.woff2') format('woff2');
+}
+
+/* geologica-700 - latin */
+@font-face {
+  font-display: swap
+  font-family: 'Geologica';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/geologica-v1-latin-700.woff2') format('woff2');
+}
+
 
 /*
  * Global Styles
@@ -8,12 +57,10 @@
 }
 
 :root {
-	--color-primary: #8294C4;
-	--color-diluted: #ACB1D6;
-	--color-shade: #DBDFEA;
 	--color-background: #FFEAD2;
-
 	--content-width: 940px;
+	--font-heading: 'Geologica', sans-serif;
+	--font-body: 'Inter', sans-serif;
 
 	background: var(--color-background);
 }
@@ -27,7 +74,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
-	font-family: 'Inter', sans-serif;
+	font-family: var(--font-body);
 	color: #000;
 }
 
@@ -50,7 +97,7 @@ section > hr:last-child {
  */
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Geologica', sans-serif;
+	font-family: var(--font-heading);
 }
 
 p {
