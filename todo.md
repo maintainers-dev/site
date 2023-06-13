@@ -3,10 +3,10 @@
 
 - Add "Latest Resources" functionality on homepage.
 - Test layout on mobile
+- Add license to project.
 
 ## Articles
 
-- What is open source?
 - Licenses in open source.
 - Managing an open source codebase.
   - Repo Hosting options.

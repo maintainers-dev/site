@@ -24,6 +24,7 @@ While this is a fair and reasonable desire for your own works, these kinds of in
 
 If you would like to restrict usage of your project, but still follow many other principles of open source, you can instead provide your project as what's often called "source available", or sometimes referred to as "fair code" depending on license and intent. Here are come licensing examples in this category:
 
+- [Creative Commons CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/)
 - [Commons Clause](https://commonsclause.com/)
 - [Server Side Public License (SSPL)](https://www.mongodb.com/licensing/server-side-public-license)
 - [Business Source License](https://mariadb.com/bsl-faq-mariadb/)
