@@ -34,6 +34,7 @@ Keep in mind though, while using these licenses, your project wouldn't generally
 ## Common Questions
 
 - [What is Open Source?](/articles/what-is-open-source/)
+- [How do I Choose a License?](/articles/choosing-a-license/)
 
 ## Further Reading
 

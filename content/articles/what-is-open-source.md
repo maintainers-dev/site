@@ -20,6 +20,10 @@ In this site, we're mainly talking about open source software, where the term ha
 
 These open rights are typically provided via a license, which is often a simple text file provided by the software authors to outline the rights they grant to their users. There are many different types of licenses available, and the can vary quite significantly. Some may make requirements of you in certain scenarios, like providing attribution to the original project when redistributing, or sharing your changes under the same type of license, so it's important to understand the licence of software you use as they're not all the same.
 
+## Common Questions
+
+- [How do I Choose a License?](/articles/choosing-a-license/)
+
 ## Further Reading
 
 - [Wikipedia - Open-source Software](https://en.wikipedia.org/wiki/Open-source_software)
