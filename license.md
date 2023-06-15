@@ -2,7 +2,7 @@
 
 This project has two licenses, one for site content and one for the code, in addition to some third party licenses for content within this project.
 
-### Content License
+## Content License
 
 The content of this project is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). This applies to files in the following top-level directories:
 
@@ -10,7 +10,7 @@ The content of this project is licensed under a [Creative Commons Attribution-Sh
 - `content/`
 - `static/`
 
-### Code License
+## Code License
 
 All code not applicable to the content license, or a third-party license, is licensed as follows:
 
@@ -36,7 +36,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-### Third Party Licenses
+## Third Party Licenses
 
 - The "Inter" Font [is licensed](https://github.com/rsms/inter/blob/master/LICENSE.txt) under the SIL Open Font License 1.1 and Copyright (c) 2016 The Inter Project Authors.
   - The files for which can be found in `themes/maintainers/static/fonts/`.

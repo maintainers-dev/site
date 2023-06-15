@@ -2,7 +2,7 @@
 
 This repository holds the content and code for the [maintainers.dev](https://maintainers.dev) website. The website is built using the [hugo static site generator](https://gohugo.io/).
 
-### Directories
+## Directories
 
 The following is a non-exhaustive list of the directories and their uses in this project:
 
@@ -14,7 +14,7 @@ The following is a non-exhaustive list of the directories and their uses in this
 - `static` - Static files for site content.
 - `themes/maintainers` - The Hugo theme used for the site.
 
-### Building
+## Building
 
 As a prerequisite, you'll need [hugo](https://gohugo.io/) installed on your system and accessible via command line.
 Since the website is fairly plain Hugo, you can use hugo commands to build the site:
@@ -37,13 +37,13 @@ npm run dev
 npm run build
 ```
 
-### Media & Git LFS
+## Media & Git LFS
 
 This project uses [git lfs](https://git-lfs.com/) to manage media binary files efficiently via standard git flows. You'll have to make sure you have this installed to pull down the project with media files.
 
 If intending to contribute, with added media files, then GitHub has a quirk in that you cannot push LFS files to a fork. Instead you'd need to request access to the main project and push a branch directly on the main repo.
 
-### Article Style Guide
+## Article Style Guide
 
 Articles on the site should try to follow these rules:
 
@@ -52,3 +52,7 @@ Articles on the site should try to follow these rules:
 - Two sections may trail the article:
   - Common Questions - Links formatted as questions, leading to other articles.
   - Further Reader - Additional external resources, or internal resources that do not fit into "Common Questions".
+
+## License
+
+This project is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/) for content and under the MIT license for code. See [license.md] for further details.
