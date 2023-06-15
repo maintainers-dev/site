@@ -55,4 +55,4 @@ Articles on the site should try to follow these rules:
 
 ## License
 
-This project is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/) for content and under the MIT license for code. See [license.md] for further details.
+This project is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/) for content and under the MIT license for code. See [license.md](license.md) for further details.
