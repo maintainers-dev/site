@@ -33,6 +33,7 @@ But these are just two examples out of many license available. Now with a brief 
 ## Common Questions
 
 - [Can I Prevent Commercial Usage?](/articles/preventing-commercial-usage/)
+- [Can I Change the License of my Project?](/articles/changing-license/)
 - [What is Open Source?](/articles/what-is-open-source/)
 
 ## Further Reading
